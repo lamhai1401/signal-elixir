@@ -1,0 +1,19 @@
+[[bin]]
+name = "signalelixir"
+path = "src/main.rs"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+
+[lib]
+name = "signalelixir"
+
+[package]
+name = "signal-elixir"
+version = "0.1.0"
+edition = "2018"
+authors = ["lamhai1401 <lamthanhhai141@gmail.com>"]
+default-run = "signalelixir"
+readme = "README.md"
+homepage = "github.com/lamhai1401/signal-elixir"
+repository = "github.com/lamhai1401/signal-elixir"
