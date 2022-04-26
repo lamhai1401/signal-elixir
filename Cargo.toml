@@ -3,7 +3,13 @@ name = "signalelixir"
 path = "src/main.rs"
 
 [dependencies]
-serde = { version = "1.0", features = ["derive"] }
+structopt = "0.3.26"
+tokio = { version = "1.17.0", features = ["full"] }
+snafu = { version = "0.7.0"}
+
+[dependencies.request-rust]
+git = "https://github.com/lamhai1401/request-rust"
+tag = "v0.0.1"
 
 [lib]
 name = "signalelixir"
