@@ -6,10 +6,16 @@ path = "src/main.rs"
 structopt = "0.3.26"
 tokio = { version = "1.17.0", features = ["full"] }
 snafu = { version = "0.7.0"}
+serde = { version ="1.0.80", features = ["derive"] }
+serde_json = "1.0.13"
+
+[dependencies.phoenix-channels]
+git = "https://github.com/gsterjov/phoenix-channels-rs"
+version = "*"
 
 [dependencies.request-rust]
 git = "https://github.com/lamhai1401/request-rust"
-tag = "v0.0.1"
+tag = "v0.0.2"
 
 [lib]
 name = "signalelixir"
